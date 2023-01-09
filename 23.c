@@ -18,9 +18,9 @@ int main(){
     else
     {
         in[0]-=totol;
-        printf("%d,",in[0]%5);
+        printf("%d,",in[0]%5);      //1元
         in[0]-=in[0]%5;
-        printf("%d,",(in[0]%50)/5);
-        printf("%d\n",in[0]/50);
+        printf("%d,",(in[0]%50)/5); //5元
+        printf("%d\n",in[0]/50);    //50元
     }
 }
