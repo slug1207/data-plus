@@ -14,8 +14,9 @@ int main()
             n++;
             str=strtok(NULL," ");
         }
-        for(int i=0;i<n;i++)
+        for(int i=0;i<n;i++){
             sun+=a[i];
+            }
         ave=(float)sun/(float)n;
         printf("Size: %d\n",n);
         printf("Average: %.3f\n", ave);
